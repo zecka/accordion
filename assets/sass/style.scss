@@ -1,0 +1,40 @@
+@import 'starters/normalize';
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Andika');
+
+$primary-color: #f6b88f;
+$secondary-color: #b0db43;
+$primary-bg: #ebebeb;
+body{
+	background-color: $primary-bg;
+	font-family: 'Andika', sans-serif;
+}
+p{
+	line-height: 1.5em;
+}
+
+header{
+	background: linear-gradient(to right, $primary-color 0%,$secondary-color 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	h1{
+		margin: 0;
+		color: #fff;
+		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		img{
+			margin-right: 15px;
+		}
+	}
+	
+	padding: 55px 0;
+	
+}
+main{
+	padding: 20px;
+}
+
+
+
